@@ -1,5 +1,7 @@
 package com.jenkins.testing;
 
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -18,7 +20,12 @@ public class sample {
 	{
 		System.out.println("run 2 is running ");
 	}
-	
+	@AfterMethod
+	public void run3()
+	{
+		Assert.fail();
+		System.out.println("run 3 is  running ");
+	}
 	}
 
 
