@@ -21,11 +21,14 @@ public class sample {
 		System.out.println("run 2 is running ");
 	}
 	@AfterMethod
+	@Test(dependsOnMethods="run1")
 	public void run3()
 	{
-		Assert.fail();
+		//Assert.fail();
+		
 		System.out.println("run 3 is  running ");
 	}
+	
 	}
 
 
