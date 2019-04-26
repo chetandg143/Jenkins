@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="62" started-at="2019-04-26T04:28:45Z" finished-at="2019-04-26T04:28:45Z">
+  <suite name="Suite" duration-ms="47" started-at="2019-04-26T04:41:05Z" finished-at="2019-04-26T04:41:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="62" started-at="2019-04-26T04:28:45Z" finished-at="2019-04-26T04:28:45Z">
+    <test name="Test" duration-ms="47" started-at="2019-04-26T04:41:05Z" finished-at="2019-04-26T04:41:05Z">
       <class name="com.jenkins.testing.sample">
-        <test-method status="PASS" signature="run1()[pri:0, instance:com.jenkins.testing.sample@5034c75a]" name="run1" is-config="true" duration-ms="13" started-at="2019-04-26T04:28:45Z" finished-at="2019-04-26T04:28:45Z">
+        <test-method status="PASS" signature="run1()[pri:0, instance:com.jenkins.testing.sample@5034c75a]" name="run1" is-config="true" duration-ms="12" started-at="2019-04-26T04:41:05Z" finished-at="2019-04-26T04:41:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run1 -->
-        <test-method status="PASS" signature="run2()[pri:0, instance:com.jenkins.testing.sample@5034c75a]" name="run2" is-config="true" duration-ms="1" started-at="2019-04-26T04:28:45Z" finished-at="2019-04-26T04:28:45Z">
+        <test-method status="PASS" signature="run2()[pri:0, instance:com.jenkins.testing.sample@5034c75a]" name="run2" is-config="true" duration-ms="1" started-at="2019-04-26T04:41:05Z" finished-at="2019-04-26T04:41:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run2 -->
-        <test-method status="PASS" signature="run1()[pri:0, instance:com.jenkins.testing.sample@5034c75a]" name="run1" duration-ms="10" started-at="2019-04-26T04:28:45Z" finished-at="2019-04-26T04:28:45Z">
+        <test-method status="PASS" signature="run1()[pri:0, instance:com.jenkins.testing.sample@5034c75a]" name="run1" duration-ms="7" started-at="2019-04-26T04:41:05Z" finished-at="2019-04-26T04:41:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run1 -->
       </class> <!-- com.jenkins.testing.sample -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
